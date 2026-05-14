@@ -1,0 +1,8 @@
+{
+  "name": "BaPau GinBal",
+  "description": "Barcode Pemantauan Gizi Anak Balita - Aplikasi pemantauan status gizi berdasarkan standar Kemenkes dengan penjelasan AI dan rekap data.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
