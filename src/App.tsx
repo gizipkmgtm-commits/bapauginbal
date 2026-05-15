@@ -198,7 +198,7 @@ export default function App() {
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden shadow-lg shadow-emerald-500/20">
             <img 
-              src="/logo-puskesmas.png" 
+              src={`${import.meta.env.BASE_URL}logo-puskesmas.png`} 
               alt="Logo" 
               className="w-full h-full object-contain"
               onError={(e) => {
